@@ -3,7 +3,7 @@
 ### Table of Contents (and my status of completion)
 
 	0. Hello World (Done!)
-	1. Values
+	1. Values (Done!)
 	2. Variables
 	3. Constants
 	4. For
