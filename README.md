@@ -4,9 +4,9 @@
 
 	0. Hello World (Done!)
 	1. Values (Done!)
-	2. Variables
-	3. Constants
-	4. For
+	2. Variables (Done!)
+	3. Constants (Done!)
+	4. For  (Done!)
 	5. If/Else
 	6. Switch
 	7. Arrays
