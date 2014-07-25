@@ -7,10 +7,10 @@
 	2. Variables (Done!)
 	3. Constants (Done!)
 	4. For  (Done!)
-	5. If/Else
-	6. Switch
-	7. Arrays
-	8. Slices
+	5. If/Else (Done!)
+	6. Switch (Done!)
+	7. Arrays (Done!)
+	8. Slices (Done!)
 	9. Maps
 	10. Range
 	11. Functions
