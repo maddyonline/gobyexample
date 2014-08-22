@@ -16,4 +16,9 @@ func main() {
   	fmt.Println("Hello -- one final time!")
   	break
   }
+  fmt.Println(i)
+  for i := 0; i < 1; fmt.Println("Something") {  // local i hides global i.
+  	i += 1
+  }
+  fmt.Println(i) // global i will be visible
 }
