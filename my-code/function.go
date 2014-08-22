@@ -18,6 +18,8 @@ func voidFunc() {
   fmt.Println("void")
 }
 
+//func weird(ints ...int, strings ...string) {  !! Not allowed. Only the last arg can be variable!
+
 func weird(strings ...string) {
   for _, x := range strings {
     fmt.Printf("%s ", x)
@@ -33,6 +35,6 @@ func main() {
   fmt.Println(add(a[1:3]...))
 
   voidFunc()
-  
+
   weird("This", "sure", "rocks!")
 }
