@@ -17,10 +17,16 @@ func myFmtPrintln(args ...printable) {
 type Int struct { i int}
 type String struct {s string}
 
+/* This doesn't work
 func (num *Int) to_string() string {
   return "sss"
 }
-func (str *String) to_string() string {
+*/
+
+func (num Int) to_string() string {
+  return "sss"
+}
+func (str String) to_string() string {
   return str.s
 }
 
