@@ -14,6 +14,20 @@ func myFmtPrintln(args ...printable) {
   }
 }
 
+type Int struct { i int}
+type String struct {s string}
+
+func (num *Int) to_string() string {
+  return "sss"
+}
+func (str *String) to_string() string {
+  return str.s
+}
+
 func main() {
+  a := Int{3}
+  b := String{"Test"}
+  fmt.Println(a, b)
+  myFmtPrintln(a, b)
   fmt.Println("Haalo!")
 }
